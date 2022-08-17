@@ -126,5 +126,19 @@ header {
      width: 100%;
  }
  
+ #vanGogh-heart {
+    border-style: none;
+    background: #ffffff;
+ }
+
+ #courbet-heart {
+    border-style: none;
+    background: #ffffff;
+ }
+
+ #ducreux-heart {
+    border-style: none;
+    background: #ffffff;
+ }
  
 

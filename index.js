@@ -1,3 +1,16 @@
+
+const vanGogh = document.getElementById("vanGogh-heart");
+const vanGoghLikes = document.getElementById("vanGogh-likes");
+let vanGoghCount = 21;
+
+const courbet = document.getElementById("courbet-heart");
+const courbetLikes = document.getElementById("courbet-likes");
+let courbetCount = 4;
+
+const ducreux = document.getElementById("ducreux-heart");
+const ducreuxLikes = document.getElementById("ducreux-likes");
+let ducreuxCount = 152;
+
 const posts = [
     {
         name: "Vincent van Gogh",
@@ -28,3 +41,31 @@ const posts = [
     }
 ]
 
+vanGoghLikes.innerHTML = ` ${vanGoghCount} likes`
+
+vanGogh.addEventListener("click", function() {
+    
+    vanGoghCount += 1;
+
+    vanGoghLikes.innerHTML = ` ${vanGoghCount} likes`
+})
+
+
+courbetLikes.innerHTML = ` ${courbetCount} likes`
+
+courbet.addEventListener("click", function() {
+    
+    courbetCount += 1;
+
+    courbetLikes.innerHTML = ` ${courbetCount} likes`
+})
+
+
+ducreuxLikes.innerHTML = ` ${ducreuxCount} likes`
+
+ducreux.addEventListener("click", function() {
+    
+    ducreuxCount += 1;
+
+    ducreuxLikes.innerHTML = ` ${ducreuxCount} likes`
+})

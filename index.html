@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
@@ -7,7 +8,6 @@
     </head>
     <body>
 
-        <script src="index.js"></script>
  
       <div class="container">
         <header>
@@ -19,16 +19,16 @@
 
         <section class="vanGogh-sec flex">
             <img class="vanGogh-avatar" src="images/avatar-vangogh.jpg">
-            <p class="name">Vincent van Gogh </br><span class="location">Zudert, Nederlands</span></p>   
+            <p class="name">Vincent van Gogh </br><span class="location">Zundert, Nederlands</span></p>   
         </section>
 
         <section class="vanGogh-post flex">
             <img class="vanGogh-img" src="images/post-vangogh.jpg">
             <div class="icons">
-                <img class="icon-btn flex" src="images/icon-heart.png">
+                <button id="vanGogh-heart"><img class="icon-btn flex"  src="images/icon-heart.png"></button>
                 <img class="icon-btn flex" src="images/icon-comment.png">
                 <img class="icon-btn flex" src="images/icon-dm.png">
-                <p class="likes">21,492 likes</p>
+                <p class="likes" id="vanGogh-likes"></p>
                 <p class="comment"><span class="name">vincy1853</span> just took a few mushrooms lol</p>
             </div>
         </section> 
@@ -44,10 +44,10 @@
 <section class="courbet-post flex">
     <img class="courbet-img" src="images/post-courbet.jpg">
     <div class="icons">
-        <img class="icon-btn flex" src="images/icon-heart.png">
+        <button id="courbet-heart"><img class="icon-btn flex" src="images/icon-heart.png"></button>
         <img class="icon-btn flex" src="images/icon-comment.png">
         <img class="icon-btn flex" src="images/icon-dm.png">
-        <p class="likes">12,502 likes</p>
+        <p class="likes" id="courbet-likes"></p>
         <p class="comment"><span class="name">gus1819</span> i'm feelin a bit stressed tbh</p>
     </div>
 </section> 
@@ -64,10 +64,10 @@
 <section class="ducreux-post flex">
     <img class="ducreux-img" src="images/post-ducreux.jpg">
     <div class="icons">
-        <img class="icon-btn flex" src="images/icon-heart.png">
+        <button id="ducreux-heart"><img class="icon-btn flex" src="images/icon-heart.png"></button>
         <img class="icon-btn flex" src="images/icon-comment.png">
         <img class="icon-btn flex" src="images/icon-dm.png">
-        <p class="likes">15,137 likes</p>
+        <p class="likes" id="ducreux-likes"></p>
         <p class="comment"><span class="name">jd1735</span> gm friends! which coin are YOU stacking up today?? post below and WAGMI!</p>
     </div>
 </section> 
@@ -78,4 +78,5 @@
    
     
     </body>
+    <script src="index.js"></script>
 </html>
