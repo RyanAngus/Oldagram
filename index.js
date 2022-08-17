@@ -47,6 +47,8 @@ vanGogh.addEventListener("click", function() {
     
     vanGoghCount += 1;
 
+    posts[0].likes = vanGoghCount;
+
     vanGoghLikes.innerHTML = ` ${vanGoghCount} likes`
 })
 
@@ -57,6 +59,8 @@ courbet.addEventListener("click", function() {
     
     courbetCount += 1;
 
+    posts[1].likes = courbetCount;
+
     courbetLikes.innerHTML = ` ${courbetCount} likes`
 })
 
@@ -66,6 +70,8 @@ ducreuxLikes.innerHTML = ` ${ducreuxCount} likes`
 ducreux.addEventListener("click", function() {
     
     ducreuxCount += 1;
+
+    posts[2].likes = ducreuxCount;
 
     ducreuxLikes.innerHTML = ` ${ducreuxCount} likes`
 })

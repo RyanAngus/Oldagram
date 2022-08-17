@@ -48,7 +48,12 @@ body {
 
 .icon-btn:hover, 
 .icon-btn:focus {
-    opacity: 50%;
+    opacity: 50%;   
+}
+
+.heart:hover, 
+.heart:focus {
+    content:url("images/heart-color.png"); 
 }
 
 .likes {
